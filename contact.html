@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style">
+    <script async src="scripts/main.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+    
+    body {
+      color: navy;
+      font-style: italic;
+    }
+
+    h3, label {
+    width: 10%;
+    max-width: 40px;
+    text-align: left;
+    height: 10%;
+    padding-top: 10px; /*l'emplacement, vers le haut ou le bas*/
+    }
+
+    p {
+    width: 10%;
+    margin: 0 auto 10px auto; /*l'espace entre eportfolio et presentation*/
+    max-width: 40px;
+    text-align: right;
+    height: 10%;
+    padding-top: 10px; /*l'emplacement, vers le haut ou le bas*/
+    }
+
+    nav > ul { /* ca met des points et souligne nav*/
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      align-items: center;
+      padding-inline-start: 0;
+      margin-block: 0;
+      height: 100%;
+    }
+
+nav > ul > li {
+      color: yellow;
+      margin: 0 0.4rem;
+      padding: 0.5rem;
+      display: block;
+    }
+
+    nav > ul > li:hover { /*petit encadré noir des mots */
+      background-color: black;
+      color: white;
+      cursor: pointer;
+    }
+
+    li > a { /*met la couleur des mots*/
+      color: inherit;
+      text-decoration: none;
+    }
+
+  .header { /* l'encadré noir en haut */
+      width: 100%;
+      height: 100px; /* hauteur */
+      background-color: rgb(70, 4, 6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+  .header {
+  position: fixed;   /* reste fixé en haut */
+  top: 0;            /* collé au haut de la page */
+  left: 0;
+  z-index: 1000;     /* au-dessus du reste */
+  }
+
+  nav {
+      width: 100%;
+      max-width: 400px;
+      height: 100px;
+    }
+
+
+
+
+
+
+
+
+
+
+    </style>
+
+<div>
+    <h3>Email:</h3>
+    <h4>maryjoh001colombes@gmail.com</h4>
+</div>
+
+<div>
+    <h3>Numéro de téléphone:</h3>
+    <h4>0744803298</h4>
+</div>
+
+<div>
+    <h3>Linkdin:</h3>
+    <h4><a href="lien" alt="lien Linkdin"></a></h4>
+</div>
+
+<div class="header">
+<nav>
+      <ul>
+        <li><a href="#Email">Email</a></li>
+        <li><a href="#Numéro de téléphone">Numéro de téléphone</a></li>
+        <li><a href="#Linkdin">Linkdin</a></li>
+      </ul>
+    </nav>
+</div>
+
+    <div>
+    <label for="contact">Email:</label>
+    <input type="text" name="student-name" id="student-name" />
+    </div>
+
+    <div>
+    <label for="contact">Numéro de téléphone:</label>
+    <input type="text" name="student-name" id="student-name" />
+    </div>
+
+    <div>
+    <label for="contact">Linkdin:</label>
+    <input type="text" name="student-name" id="student-name" />
+    </div>
+    
+ 
+
+
+
+
+
+
+
+
+
+
