@@ -7,17 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <style>
+
+     .photo-container {
+      float: right;            /* Place le bloc image à droite */
+      margin-left: 20px;       /* Espace entre image et texte */
+      margin-bottom: 10px;
+    }
+
     p, strong, li, ul, h1, body {
       font-style: italic;
     }
 
     h1 {
     width: 100%;
-    margin: 0 auto 140px auto; /*l'espace entre eportfolio et presentation*/
+    margin: 0 auto 100px auto; /*l'espace entre eportfolio et presentation*/
     max-width: 400px;
     text-align: left;
     height: 100%;
-    padding-top: 80px; /*l'emplacement, vers le haut ou le bas*/
+    padding-top: 110px; /*l'emplacement, vers le haut ou le bas*/
     }
 
     body, nav {
@@ -35,15 +42,15 @@
     }
 
     nav > ul > li {
-      color: navy;
+      color: white;
       margin: 0 0.4rem;
       padding: 0.5rem;
       display: block;
     }
 
     nav > ul > li:hover {
-      background-color: beige;
-      color: pink;
+      background-color: black;
+      color: white;
       cursor: pointer;
     }
 
@@ -63,7 +70,7 @@
     .header { /* l'encadré noir en haut */
       width: 100%;
       height: 100px; /* hauteur */
-      background-color: yellow;
+      background-color: rgb(70, 4, 6);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -86,8 +93,7 @@
 
 <body>
 
-  <!-- Encadré noir avec nav -->
-  <div class="header">
+  <div class="header"> <!-- Encadré noir avec nav -->
     <nav>
       <ul>
         <li><a href="#Présentation">Présentation</a></li>
@@ -101,16 +107,20 @@
     </nav>
   </div>
 
+   <div class="photo-container">
+      <img src="5c27.jpg" alt="photo de Mary">
+    </div>
+
   <div class="menu">
     <main>
       <h1> E-portfolio</h1>
     </main>
   </div>
 
- <div>
+            <div>
             <h3> Présentation</h3>
             <P>Bonjour je m'appelle Mary JOH, J'ai 19 ans et je suis en BTS SIO au Lycée Turgo......</P>
-        </div>
+            </div>
 
         <div>
             <h3> CV</h3>
@@ -192,13 +202,11 @@
             <p></p>
         </div>
 
-     <div>
-     <a href="contactblablabla.html">Contact</a>
-     </div>
 
-     <div>
-        <button class="btn">Contactblablabla</button>
-     </div>
+    <div>
+      <a href="contact.html"><button>Contact</button></a>
+    </div>
+
         </div>
       </body>
       </html>
