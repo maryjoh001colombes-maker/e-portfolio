@@ -8,16 +8,6 @@
     
     <style>
 
-     .photo-container {<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="style">
-    <script async src="scripts/main.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <style>
-
      .photo-container {
       float: right;            /* Place le bloc image à droite */
       margin-left: 90px;       /* Espace entre image et texte */
@@ -102,6 +92,11 @@
       height: 100px;
     }
 
+    .separateur {
+    border: none;
+    border-top: 2px solid #ccc; /* couleur et épaisseur */
+    margin: 20px 0;
+}
      
     </style>
 </head>
@@ -137,14 +132,20 @@
             <P>Bonjour je m'appelle Mary JOH, J'ai 19 ans et je suis en BTS SIO au Lycée Turgo......</P>
             </div>
 
+            <hr class="separateur">
+
         <div id="CV"> <!-- redirection de la rubrique -->
             <h3> CV</h3>
         </div>
+
+        <hr class="separateur">
 
         <div id="Veille"> <!-- redirection de la rubrique -->
             <h3>Veille</h3>
             <p>L'utilisation de l'intelligence artificielle dans le domaine de la médecine</p>
         </div>
+
+        <hr class="separateur">
 
         <div id="Compétence">
             <h3>Compétences</h3>
@@ -199,9 +200,13 @@
                     </ul>
             </div>
 
+            <hr class="separateur">
+
         <div id="Certifications">
             <h3>Certification</h3>
         </div>
+
+        <hr class="separateur">
 
         <div id="Projets">
             <h3>Projets</h3>
@@ -209,11 +214,14 @@
             <p></p>
         </div>
 
+        <hr class="separateur">
+
         <div id="Procédures">
             <h3>Procédures</h3>
             <p></p>
         </div>
 
+         <hr class="separateur">
 
     <div>
       <a href="contact.html"><button>Contact</button></a>
@@ -222,206 +230,3 @@
         </div>
       </body>
       </html>
-
-      float: right;            /* Place le bloc image à droite */
-      margin-left: 20px;       /* Espace entre image et texte */
-      margin-bottom: 10px;
-    }
-
-    p, strong, li, ul, h1, body {
-      font-style: italic;
-    }
-
-    h1 {
-    width: 100%;
-    margin: 0 auto 100px auto; /*l'espace entre eportfolio et presentation*/
-    max-width: 400px;
-    text-align: left;
-    height: 100%;
-    padding-top: 110px; /*l'emplacement, vers le haut ou le bas*/
-    }
-
-    body, nav {
-      color: navy;
-    }
-      
-    nav > ul {
-      display: flex;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-      align-items: center;
-      padding-inline-start: 0;
-      margin-block: 0;
-      height: 100%;
-    }
-
-    nav > ul > li {
-      color: white;
-      margin: 0 0.4rem;
-      padding: 0.5rem;
-      display: block;
-    }
-
-    nav > ul > li:hover {
-      background-color: black;
-      color: white;
-      cursor: pointer;
-    }
-
-    li > a {
-      color: inherit;
-      text-decoration: none;
-    }
-
-    main {
-      padding-top: 70px;
-    }
-
-    .Présentation {
-      padding: 10px 0 0 5px;
-    }
-
-    .header { /* l'encadré noir en haut */
-      width: 100%;
-      height: 100px; /* hauteur */
-      background-color: rgb(70, 4, 6);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-  .header {
-  position: fixed;   /* reste fixé en haut */
-  top: 0;            /* collé au haut de la page */
-  left: 0;
-  z-index: 1000;     /* au-dessus du reste */
-  }
-
-    nav {
-      width: 100%;
-      max-width: 400px;
-      height: 100px;
-    }
-    </style>
-</head>
-
-<body>
-
-  <div class="header"> <!-- Encadré noir avec nav -->
-    <nav>
-      <ul>
-        <li><a href="#Présentation">Présentation</a></li>
-        <li><a href="#CV">CV</a></li>
-        <li><a href="#Veille">Veille</a></li>
-        <li><a href="#Compétence">Compétence</a></li>
-        <li><a href="#Certatifications">Certatifications</a></li>
-        <li><a href="#Projets">Projets</a></li>
-        <li><a href="#Procédures">Procédures</a></li>
-      </ul>
-    </nav>
-  </div>
-
-   <div class="photo-container">
-      <img src="5c27.jpg" alt="photo de Mary">
-    </div>
-
-  <div class="menu">
-    <main>
-      <h1> E-portfolio</h1>
-    </main>
-  </div>
-
-            <div>
-            <h3> Présentation</h3>
-            <P>Bonjour je m'appelle Mary JOH, J'ai 19 ans et je suis en BTS SIO au Lycée Turgo......</P>
-            </div>
-
-        <div>
-            <h3> CV</h3>
-        </div>
-
-        <div>
-            <h3>Veille</h3>
-            <p>L'utilisation de l'intelligence artificielle dans le domaine de la médecine</p>
-        </div>
-
-        <div>
-            <h3>Compétences</h3>
-                <h4>Système</h4>
-                    <ul>
-                    <li><p></p></li>
-                    <li><p></p></li>
-                    </ul>
-                <h4>Infrastructure</h4>
-                    <ul>
-                    <li><p></p></li>
-                    <li><p></p></li>
-                    <li><p></p></li>
-                    <li><p></p></li>
-                    </ul>
-                <h4>Réseau</h4>
-                    <ul>
-                    <li><p>Cisco packt tracer</p></li>
-                    <li><p>Cisco Basis net Working</p></li>
-                    <li><p></p></li>
-                    </ul>
-                <h4>Développement</h4>
-                    <ul>
-                        <li><p>Python</p></li>
-                        <li><p>HTML</p></li>
-                        <li><p>CSS</p></li>
-                        <li><p>Javascript</p></li>
-                        <li><p>PHP</p></li>
-                        </ul>
-                <h4>Base de donnée</h4>
-                    <ul>
-                    <li><p>SQL</p></li>
-                    <li><p></p></li>
-                    </ul>
-                <h4>Cyber securité</h4>
-                    <ul>
-                    <li><p>RGPS</p></li>
-                    <li><p>CNIL</p></li>
-                    </ul>
-                <h4>Gestion de projet</h4>
-                    <ul>
-                    <li><p>Cahier des charges</p></li>
-                    <li><p>Cahier de recttes</p></li>
-                    <li><p>Livrable</p></li>
-                    <li><p>Diagramme de gantt</p></li>
-                    <li><p>Cahier de tests</p></li>
-                    <li><p></p></li>
-                    <li><p></p></li>
-                    <li><p></p></li>
-                    </ul>
-                <h4>Virtualisation</h4>
-                    <ul>
-                    <li><p>Ubuntu, Linux</p></li>
-                    <li><p>Apache</p></li>
-                    </ul>
-            </div>
-
-        <div>
-            <h3>Certification</h3>
-        </div>
-
-        <div>
-            <h3>Projets</h3>
-            <p>organisation de l'évènement dé l'afterwork du Lycée Turgot</p>
-            <p></p>
-        </div>
-
-        <div>
-            <h3>Procédures</h3>
-            <p></p>
-        </div>
-
-
-    <div>
-      <a href="contact.html"><button>Contact</button></a>
-    </div>
-
-        </div>
-      </body>
-      </html>
-
