@@ -102,140 +102,168 @@ img {
   width: 250px;
   height: 250px;
 }
+
+.photo-container2 {
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    width: auto;
+}
+
+.photo-container2 img {
+    width: 600px;
+    height: 600px;
+    border-radius: 5px;
+}
+
+.photo-container3 {
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    width: auto;
+}
+
+.photo-container3 img {
+    width: 600px;
+    height: 600px;
+    border-radius: 5px;
+}
+
+
+.contact-section {
+    width: 100%;
+    margin: 0 auto 100px auto; /*l'espace entre eportfolio et presentation*/
+    max-width: 400px;
+    text-align: left;
+    height: 100%;
+    padding-top: 110px; /*l'emplacement, vers le haut ou le bas*/
+    margin-left: 5px;
+    }
+
+    .Projets {
+    width: 100%;
+    margin: 0 auto 100px auto; /*l'espace entre eportfolio et presentation*/
+    max-width: 400px;
+    text-align: left;
+    height: 100%;
+    padding-bottom: 100px; /*l'emplacement, vers le haut ou le bas*/
+    margin-left: 5px;
+    }
+
+    .tableau-de-synthèse {
+    width: 100%;
+    margin: 0 auto 100px auto; /*l'espace entre eportfolio et presentation*/
+    max-width: 400px;
+    text-align: left;
+    height: 100%;
+    padding-bottom: 10px; /*l'emplacement, vers le haut ou le bas*/
+    margin-left: 5px;
+    }
+
+ 
+
      
     </style>
 </head>
 
 <body>
 
-  <div class="header"> <!-- Encadré noir avec nav -->
-    <nav>
+  <div class="header">
+      <nav>
+        <ul>
+          <li><a href="#Présentation">Présentation</a></li>
+          <li><a href="#Veille">Veille</a></li>
+          <li><a href="#Compétence">Compétence</a></li>
+          <li><a href="#Certifications">Certifications</a></li>
+          <li><a href="#Projets">Projets</a></li>
+          <li><a href="#tableau">Tableau de synthèse</a></li>
+        </ul>
+      </nav>
+  </div>
+  
+  <main>
+  
+  <h1>E-Portfolio</h1>
+  
+  <!-- PRESENTATION -->
+  <hr class="separateur">
+  <div id="Présentation" class="section">
+      <h3>Présentation</h3>
+      <img src="data:image/jpeg;base64,..." alt="photo Mary">
+      <p>
+          Bonjour je m'appelle Mary JOH, j'ai 19 ans et je suis en BTS SIO...
+      </p>
+  </div>
+  
+  <!-- VEILLE -->
+  <hr class="separateur">
+  <div id="Veille" class="section">
+      <h3>Veille</h3>
+      <p>L'utilisation de l'intelligence artificielle dans la médecine.</p>
+  </div>
+  
+  <!-- COMPETENCES -->
+  <hr class="separateur">
+  <div id="Compétence" class="section">
+      <h3>Compétences</h3>
+
+      <h4>Système</h4>
       <ul>
-        <li><a href="#Présentation">Présentation</a></li>
-        <li><a href="#Veille">Veille</a></li>
-        <li><a href="#Compétence">Compétence</a></li>
-        <li><a href="#Certifications">Certifications</a></li>
-        <li><a href="#Projets">Projets</a></li>
-        <li><a href="#tableau de synthèse">tableau de synthèse</a></li>
+        <li>Upgrader un ordinateur</li>
       </ul>
-    </nav>
+
+      <h4>Infrastructure</h4>
+      <ul>
+        <li>Configurer une infrastructure</li>
+      </ul>
+
+      <h4>Réseau</h4>
+      <ul>
+        <li>Cisco Packet Tracer</li>
+      </ul>
+
+      <h4>Développement</h4>
+      <ul>
+          <li>Python</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>PHP</li>
+      </ul>
   </div>
-
-   <div class="photo-container">
-      <img src="data:image/jpeg;base64,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" alt="photo de Mary">
-    </div>
-
-  <div class="menu">
-    <main>
-      <h1> E-portfolio</h1>
-    </main>
+  
+  <!-- CERTIFICATIONS -->
+  <hr class="separateur">
+  <div id="Certifications" class="section">
+      <h3>Certifications</h3>
+      <img src="Screenshot 2025-12-10 at 10-41-10 Certificat - MODULE 1 _ LE RGPD ET SES NOTIONS CLÉS_Attestation du Module 1.pdf.png" alt="Certification">
   </div>
-
-            <div id="Présentation">
-            <h3> Présentation</h3>
-            <P>Bonjour je m'appelle Mary JOH, J'ai 19 ans et je suis en BTS SIO au Lycée Turgo. J'ai fais un Baccalauréat stmg en gestion finance. Je me suis ensuite orienté vers un BUT Gea mais ce n'était pa sla voie que je voulais faire. J'ai fini par faire un BTS SIO car l'informatique est un domaine qui m'intérèsse notamment dans le domaine de la santé et le bien-être.<P>
-            </div>
-
-
-        <hr class="separateur">
-
-        <div id="Veille"> <!-- redirection de la rubrique -->
-            <h3>Veille</h3>
-            <p>L'utilisation de l'intelligence artificielle dans le domaine de la médecine</p>
-        </div>
-
-        <hr class="separateur">
-
-        <div id="Compétence">
-            <h3>Compétences</h3>
-                <h4>Système</h4>
-                    <ul>
-                    <li><p>Upgrader un ourdinateur</p></li>
-                    <li><p></p></li>
-                    </ul>
-                <h4>Infrastructure</h4>
-                    <ul>
-                    <li><p>Confiugurer l'infrastructure d'une maison</p></li>
-                    <li><p> Analyse l'infrastructure de plusieurs batiments</p></li>
-                    <li><p></p></li>
-                    <li><p></p></li>
-                    </ul>
-                <h4>Réseau</h4>
-                    <ul>
-                    <li><p>Cisco packt tracer</p></li>
-                    <li><p>Cisco Basis net Working</p></li>
-                    <li><p></p></li>
-                    </ul>
-                <h4>Développement</h4>
-                    <ul>
-                        <li><p>Python</p></li>
-                        <li><p>HTML</p></li>
-                        <li><p>CSS</p></li>
-                        <li><p>Javascript</p></li>
-                        <li><p>PHP</p></li>
-                        </ul>
-                <h4>Base de donnée</h4>
-                    <ul>
-                    <li><p>mySQL</p></li>
-                    </ul>
-                <h4>Cyber securité</h4>
-                    <ul>
-                    <li><p>RGPS</p></li>
-                    <li><p>CNIL</p></li>
-                    <li><p>Ebios</p></li>
-                    <li><p>Mooc ANSSI</p></li>
-                    </ul>
-                <h4>Gestion de projet</h4>
-                    <ul>
-                    <li><p>Cahier des charges</p></li>
-                    <li><p>Cahier de recttes</p></li>
-                    <li><p>Livrable</p></li>
-                    <li><p>Diagramme de gantt</p></li>
-                    <li><p>Cahier de tests</p></li>
-                    </ul>
-                <h4>Virtualisation</h4>
-                    <ul>
-                    <li><p>Ubuntu, Linux</p></li>
-                    <li><p>Apache</p></li>
-                    <li><p>mysql</p></li>
-                    <li><p>Php</p></li>
-                    <li><p>Wordpress</p></li>
-                    </ul>
-            </div>
-
-            <hr class="separateur">
-
-        <div id="Certifications">
-            <h3>Certification</h3>
-        </div>
-
-        <div id="Projets">
-            <h3>Projets</h3>
-            <p>Organisation de l'évènement dé l'afterwork du Lycée Turgot</p>
-            <p>Création d'un site internet pour une institut de beauté ayant des boissons en ventes</p>
-            <p></p>
-        </div>
-
-        <hr class="separateur">
-
-      
-        <div id="tableau de synthèse">
-        <h3>tableau de synthèse</h3>
-      </div>
-      
-          <a href="tableau de synthese.pdf" target="_blank">
-            <button>Ouvrir le document PDF</button>
-          </a>
-        </div>
-        
-
-        <hr class="separateur">
-
-    <div>
-      <a href="contact.html"><button>Contact</button></a>
-    </div>
-    
-
-        </div>
-      </body>
+  
+  <!-- PROJETS -->
+  <hr class="separateur">
+  <div id="Projets" class="section">
+      <h3>Projets</h3>
+      <p>Organisation de l'afterwork du Lycée Turgot</p>
+      <p>Création d'un site pour un institut de beauté</p>
+  </div>
+  
+  <!-- TABLEAU DE SYNTHESE -->
+  <hr class="separateur">
+  <div id="tableau" class="section">
+      <h3>Tableau de synthèse</h3>
+      <img src="Capture d’écran_9-12-2025_144342_.jpeg" alt="tableau">
+  </div>
+  
+  <!-- CONTACT -->
+  <hr class="separateur">
+  <div id="Contact" class="section">
+      <h3>Contact</h3>
+      <a href="contact.html">
+          <button>Me contacter</button>
+      </a>
+  </div>
+  
+  </main>
+  
+  </body>  
       </html>
