@@ -220,6 +220,21 @@ img {
     border: 1px solid white; /* Bordure blanche pour délimiter la carte */
 }
 
+/* Règle pour l'ancre qui entoure la carte */
+.cert-link {
+    text-decoration: none; /* Enlève la décoration de lien par défaut */
+    color: inherit; /* Utilise la couleur du texte parent (blanc) */
+    display: block; /* Important pour que l'ancre englobe toute la carte */
+}
+
+/* Effet de survol sur la carte */
+.cert-card:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Changement de couleur au survol */
+    transform: translateY(-5px); /* Léger déplacement vers le haut */
+    transition: all 0.3s ease; /* Animation fluide */
+    cursor: pointer;
+}
+
 /* Ajustement pour les images dans les cartes de certification */
 .cert-card img {
     width: 100%; /* L'image prend toute la largeur de la carte */
@@ -417,27 +432,35 @@ img {
         <div class="enhanced-certs"> 
         
             <div class="cert-card">
-                <h4>Module 1 : Le RGPD et ses notions clés</h4>
-                <img src="Screenshot 2025-12-10 at 10-41-10 Certificat - MODULE 1 _ LE RGPD ET SES NOTIONS CLÉS_Attestation du Module 1.pdf.png" alt="Certification RGPD">
-                <p>( Redirection vers le site : <a href="https://atelier-rgpd.cnil.fr/mod/customcert/view.php?id=19" target="_blank" style="color: white; text-decoration: underline;"></a>)</p></div></p>
+                <a href="https://atelier-rgpd.cnil.fr/course/section.php?id=48" target="_blank" class="cert-link">
+                    <h4>Module 1 : Le RGPD et ses notions clés</h4>
+                    <img src="Screenshot 2025-12-10 at 10-41-10 Certificat - MODULE 1 _ LE RGPD ET SES NOTIONS CLÉS_Attestation du Module 1.pdf.png" alt="Certification RGPD">
+                    <p>Attestation de suivi de l'initiative CNIL pour la protection des données.</p>
+                </a>
             </div>
 
             <div class="cert-card">
-                <h4>Introduction à Packet Tracer</h4>
-                <img src="Screenshot 2025-12-10 at 11-58-57 Introduction_to_Packet_Tracer_certificate_maryjoh001colombes-gmail-com_4a1a32a6-660f-4924-8df1-f1a1ee43f2a2.pdf(1).png" alt="Certification Packet Tracer">
-                <p>( Redirection vers le site : <a href="https://www.netacad.com/certificates/?issuanceId=4a1a32a6-660f-4924-8df1-f1a1ee43f2a2" target="_blank" style="color: white; text-decoration: underline;"></a>)</p>
+                <a href="https://www.netacad.com/certificates/?issuanceId=4a1a32a6-660f-4924-8df1-f1a1ee43f2a2" target="_blank" class="cert-link">
+                    <h4>Introduction à Packet Tracer</h4>
+                    <img src="Screenshot 2025-12-10 at 11-58-57 Introduction_to_Packet_Tracer_certificate_maryjoh001colombes-gmail-com_4a1a32a6-660f-4924-8df1-f1a1ee43f2a2.pdf(1).png" alt="Certification Packet Tracer">
+                    <p>Certification Cisco Networking Academy sur l'outil de simulation réseau.</p>
+                </a>
             </div>
 
             <div class="cert-card">
-                <h4>Attestation de suivi divers</h4>
-                <img src="Screenshot 2025-12-10 at 12-06-01 Attestation de suivi - Attestation_de_suivi.pdf.png" alt="Autre Attestation">
-                <p>( Redirection vers le site : <a href="https://www.netacad.com/certificates/?issuanceId=c74bc004-13de-448e-bd68-5b1afad804c8" target="_blank" style="color: white; text-decoration: underline;"></a>)</p></div></p>
+                <a href="https://atelier-rgpd.cnil.fr/course/section.php?id=11" target="_blank" class="cert-link">
+                    <h4>Attestation de suivi divers</h4>
+                    <img src="Screenshot 2025-12-10 at 12-06-01 Attestation de suivi - Attestation_de_suivi.pdf.png" alt="Autre Attestation">
+                    <p>Attestation de suivi d'un module de formation complémentaire.</p>
+                </a>
             </div>
 
             <div class="cert-card">
-                <h4>Networking Basics</h4>
-                <img src="Screenshot 2025-12-13 at 21-02-45 Networking_Basics_certificate_maryjoh001colombes-gmail-com_c74bc004-13de-448e-bd68-5b1afad804c8.pdf.png" alt="Certification Networking Basics">
-                <p>( Redirection vers le site : <a href="https://atelier-rgpd.cnil.fr/course/section.php?id=11" target="_blank" style="color: white; text-decoration: underline;"></a>)</p></div></p>
+                <a href="https://www.netacad.com/certificates/?issuanceId=c74bc004-13de-448e-bd68-5b1afad804c8" target="_blank" class="cert-link">
+                    <h4>Networking Basics</h4>
+                    <img src="Screenshot 2025-12-13 at 21-02-45 Networking_Basics_certificate_maryjoh001colombes-gmail-com_c74bc004-13de-448e-bd68-5b1afad804c8.pdf.png" alt="Certification Networking Basics">
+                    <p>Certification Cisco Networking Academy sur les fondamentaux du réseau.</p>
+                </a>
             </div>
             
             </div>
